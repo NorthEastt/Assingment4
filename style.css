@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+}
+.Nav{
+    width: 100%;
+    background: blue;
+    height: 70px;
+    border-radius: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+ul li{
+    float: left;
+    margin-top: 15px;
+
+}
+ul li a{
+    width: 150px;
+    color: white;
+    display: block;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Century Gothic;
+    font-weight: bold;
+}
+a:hover{
+    background: green;
+}
+ul li ul{
+    background: blue;
+}
+ul li ul li{
+    float: none;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+}
+.Para p{
+        display: block;
+        margin-inline-start: 1em;
+        margin-inline-end: 1em;
+}
+.IMG img{
+    height: 250px;
+    width: 100%;
+    max-width: 460px;
+    margin-inline-start: 1em;
+    overflow: hidden;
+}
+.IMG1 img{
+    height: 250px;
+    width: 100%;
+    max-width: 460px;
+    margin-inline-start: 1em;
+    overflow: hidden;
+}
+.footer p{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+}
